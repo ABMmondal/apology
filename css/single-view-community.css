@@ -1,0 +1,100 @@
+
+.community-sub-category li{
+    margin: 0.625rem;
+}
+.community-sub-category li p{
+	font-weight: 600;
+	color: #641CAE;
+	font-size: 1.125rem;
+
+}
+/*notification text color*/
+.notification-text-color{
+	color: #3B3441;
+}
+
+.creat-community{
+    margin: 0.625rem 0;
+   
+}
+/* here two sub haddings 1st- yourcommunity and 2nd-Community  you've joined*/
+
+.headings{
+	margin: 0.625rem 0;
+}
+.sidebar-communities{
+	margin-bottom:  0.625rem;
+}
+/* single community list , you have joined*/
+.sidebar-community-list{
+    margin:0.625rem 0 0 0.625rem;
+}
+
+
+/* single community view*/
+
+.conttener{
+	display: flex;
+	flex-direction: column;
+    height:41rem;
+	overflow-y: scroll;
+}
+.conttener {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.conttener::-webkit-scrollbar {
+    display: none;
+}
+
+.profile-sec{
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+	height:16.563rem;
+	width:60.688rem;
+    margin: 1.25rem;
+}
+.profile-photo{
+	margin-top: -5rem;
+
+}
+.profile-sec .community-name{
+	font-weight:600;
+	font-size:1.5rem;
+	color:  #641CAE;
+	margin-top: 0.313rem;
+}  
+.community-type{
+	margin-top: 0.313rem ;
+}
+.community-member{
+	display: flex;
+	margin-top: 0.313rem;
+}
+.community-member-photo{
+	margin-right: 0.313rem;
+}
+.community-join-button{
+	align-self: flex-end;
+	margin-top: -2.5rem;
+}
+.single-community-main-body{
+	display: flex;
+	flex-direction: column;
+}
+.community-skills{
+	 margin:0 1.25rem;
+}
+.single-community-containt{
+	display: flex;
+	height:auto;
+	width:60.688rem;
+    margin: 1.25rem;
+}
+.Profile-Intro-heading p{
+	font-weight: 600;
+	color: #3B3441;
+}
+
+

@@ -1,0 +1,197 @@
+.chat-container{
+	display: flex;
+	flex-direction: column;
+	width: 43.688rem;
+	height: 39.75rem;
+	background-color: #ffff;
+	margin: 1.25rem 1.25rem 0 1.25rem;
+	border-radius:0.313rem 0.313rem 0 0 ;
+	box-shadow: 0px 3px 6px rgba(100, 28, 174, 0.1), 0px 4px 8px rgba(100, 28, 174, 0.08), 0px 1px 12px rgba(100, 28, 174, 0.04);ś
+}
+.chat-pre-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:17rem;
+	height:41rem;
+	background-color: #ffff;
+	padding: 0.625rem;
+	box-shadow: 0px 3px 6px rgba(100, 28, 174, 0.1), 0px 4px 8px rgba(100, 28, 174, 0.08), 0px 1px 12px rgba(100, 28, 174, 0.04);
+}
+.chat-sidebar-lst {
+	margin-bottom:  0.625rem;
+
+}
+.chat-search-box{
+	margin-bottom: 0.625rem;
+}
+.chat-sidebar-single-itm {
+	margin:0 0.625rem 0 0.625rem;
+	
+}
+.chat-sidebar-single-itm a{
+	padding: 0.625rem 0 0.625rem 0.625rem;
+}
+.headings{
+	margin: 0.625rem 0;
+}
+.see-mor-btn{
+	margin: 0.625rem;
+}
+.chat-container-header{
+    display: flex;
+    align-items: center;
+    height: 3.125rem;
+    width: 100%;
+    border-bottom:0.013rem solid rgba(100, 28, 174, 0.5);
+}
+.chat-container-header-lf{
+	display: flex;
+	align-items: center;
+	margin: 0 auto 0 1.25rem;
+}
+.chat-container-header-name{
+	display: flex;
+	margin: 0 0.625rem;
+}
+.chat-container-header-name p{
+	font-size: 1rem;
+	width: auto;
+	max-width: 19rem;
+	font-weight:500;
+	color:#3B3441;
+	white-space: nowrap; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.chat-online-dot{
+	margin-right: 1.875rem;
+}
+.chat-container-header-rt{
+	display: flex;
+	align-items: center;
+	margin: 0 1.25rem 0 auto;
+}
+.chat-container-header-rt a{
+	display: flex;
+	align-items: center;
+}
+.chat-container-header-rt .middle{
+	margin: 0 1.875rem;
+}
+.chat-container-body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.chat-container-chats-sec{
+	display: flex;
+	flex-direction: column;
+	padding: 1.25rem;
+}
+.chat-pre-container-header{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 1.563rem;
+}
+.chat-pre-container-name{
+	display: flex;
+	margin: 0.625rem 0 0.313rem 0;
+	font-weight:bold ;
+	font-size: 1.125rem;
+	color: #3B3441;
+}
+.chat-pre-container-status{
+	color: rgba(59, 52, 65, 0.6);
+    font-size: 0.875rem;
+}
+.chat-pre-container-itm-sec{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.25rem;
+	width: 100%;
+}
+.chat-pre-container-headding{
+	display: flex;
+	justify-content: center;
+}
+.chat-pre-container-headding p{
+    font-weight: 600;
+    color:#3B3441;
+}
+.chat-pre-container-headding a{
+    margin: 0 0  0 auto ;
+    font-size: 0.875rem;
+}
+.chat-pre-container-photos{
+	display: flex;
+	margin-top: 0.625rem;
+}
+.chat-pre-container-photos img{
+	height:3.75rem ;
+	width: 3.75rem;
+	border-radius: 0.625rem;
+	margin: 0 auto 0 auto;
+}
+.chat-pre-container-video{
+	display: flex;
+	margin-top: 0.625rem;
+}
+.chat-pre-container-video div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height:3.75rem ;
+	width: 3.75rem;
+	border-radius: 0.625rem;
+	margin: 0 auto 0 auto;
+}
+.chat-pre-container-video div img{
+	height:3.75rem ;
+	width: 3.75rem;
+	border-radius: 0.625rem;
+}
+.chat-pre-container-video div .chat-pre-video-icon{
+	position: absolute;
+	height: 1.5rem;
+	width: 1.5rem;
+	filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.25)) drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.25)) drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.04));
+}
+.chat-pre-container-FilesLinks{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0.625rem;
+}
+.chat-pre-container-FilesLinks p{
+	color:#3B3441;
+	max-height:2.5rem;
+	white-space: nowrap; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.chat-pre-container-FilesLinks .chat-pre-container-Files{
+	display: flex;
+	height:3.75rem ;
+	width:14.244rem ;
+	background-color: #F5F5F5;
+	padding: 0.625rem;
+	border-radius: 0.625rem;
+}
+.chat-pre-container-FilesLinks .chat-pre-container-Files div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 0.625rem;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 0.625rem;
+	background-color: rgba(255, 0, 0, 0.65);
+}
+.chat-pre-container-FilesLinks .chat-pre-container-Files div p{
+	font-size: 1.75rem;
+	position: absolute;
+	font-weight:600;
+    color: #ffffff;	
+}

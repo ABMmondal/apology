@@ -1,0 +1,161 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+	font-family:  Raleway;
+	box-sizing: border-box;
+
+}
+html{
+	font-size:100%;
+}
+img{
+	width: 3vw;
+	height: 7vh;
+}
+h3{
+	margin-bottom: 0.625rem;
+	color:#641CAE;
+	margin-left: 0.625rem; 
+	font-weight: bolder;
+}
+.logo{
+	align-items: center;
+	text-align: center;
+	margin-bottom: 1.25rem;
+}
+.loginForm{
+	width:38vw;
+	margin: 8% auto auto auto;
+	text-align: center;
+
+
+}
+.input-box-user{
+	width: 33vw;
+	height: 7vh;
+	margin: 1.25rem auto;
+	text-align: center;
+	color: #641CAE;
+
+}
+.input-box-user input{
+	background: #FFFFFF;
+    border: 0.013rem solid #641CAE;
+    border-radius: 1.25rem;
+    outline: none;
+	width: 33vw;
+	height: 7vh;
+	font-size: 1rem;
+	text-align: center;
+	color: #641CAE;
+}
+.input-box-password{
+	background: #FFFFFF;
+    border: 0.013rem solid #641CAE;
+    border-radius: 1.25rem;
+    outline: none;
+	width: 33vw;
+	height: 7vh;
+	margin:1.25rem auto;
+    text-align: center;
+	color: #641CAE;
+}
+.input-box-password input{
+	width: 80%;
+	border: none;
+	outline: none;
+	padding:1rem 0rem;
+	background: transparent;
+	text-align: center;
+	color: #641CAE;
+    font-size: 1rem;
+}
+
+.loginButton{
+	background-color: #641CAE;
+    width: 33vw;
+	height: 7vh;
+    border-radius: 1.875rem;
+    outline: none;
+    margin:1.25rem auto;
+    border: none;
+    font-weight: 500;
+
+
+}
+::placeholder{
+	color: #641CAE;
+	font-size: 1rem;
+	font-weight: 600;
+}
+.loginButton button{
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	background: transparent;
+	text-align: center;
+	cursor: pointer;
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: #FFFFFF;
+
+}
+.fa{
+	margin-right: 0.625rem;;
+}
+.eye{
+	margin-left: 0.313rem;
+	padding-top: 1rem;
+
+
+	position: absolute;
+}
+#hide1{
+	display: none;
+}
+
+.line{
+	height:  0.063rem;
+	background-color:  #641CAE;
+	margin-top: 10.625rem;
+	border:none;
+	opacity: 50%;
+}
+
+a{
+	text-decoration: none;
+	color: #641CAE;
+
+}
+.Button:hover{
+	background-color: #FFFFFF;
+	color:#641CAE;
+	border: 0.013rem  solid #641CAE;
+	border-radius: 1.25rem;
+}
+
+.links{
+	color: #641CAE;
+    margin-top:1.25rem; 
+    text-align: center;
+
+
+}
+.short{
+	font-size: 1.25rem;
+	font-weight:bold;
+	text-align: center;
+	color: #641CAE;
+
+}
+@media(max-width: 998px){
+	html{
+		font-size:90%; 
+	}
+}
+@media(max-width: 768px){
+	html{
+		font-size:80%; 
+	}
+}

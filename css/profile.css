@@ -1,0 +1,58 @@
+.profile-conttener{
+	display: flex;
+	flex-direction: column;
+  height:41rem;
+	overflow-y: scroll;
+	padding:1.25rem 1.875rem 0 1.875rem;
+}
+.profile-conttener {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.profile-conttener::-webkit-scrollbar {
+    display: none;
+}
+.profile-sec{
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+	height:auto;
+	width:82.501rem;
+  margin-bottom: 1.25rem;
+}
+.profile-photo{
+	margin-top: -7.5rem;
+}
+.profile-sec .profile-name{
+	font-weight:600;
+	font-size:1.5rem;
+	color:  #641CAE;
+	margin-top: 0.313rem;
+}
+.profile-intarest{
+	display: flex;
+	margin:0.313rem 0;
+
+}
+.profile-socal-btns{
+	margin-top: 0.313rem;
+}
+.profile-socal-single-btn{
+	margin-right:1.875rem;
+}
+.profile-Follow-message-btn{
+	display: flex;
+	align-self: flex-end;
+	margin-top: -2.5rem;
+}
+.profile-main-body{
+	display: flex;
+	flex-direction: column;
+	
+}
+.profile-containt{
+	display: flex;
+	height:auto;
+	width:82.501rem;
+  margin: 1.25rem 0;
+}

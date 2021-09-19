@@ -1,0 +1,71 @@
+.event-search{
+	 margin:1.25rem 0 0.625rem 0.625rem;
+}
+.event-sub-category li{
+    margin:0.313rem auto 0.313rem 0.625rem ;
+}
+.event-sub-category li a{
+	font-weight: 600;
+	font-size: 1.125rem;
+}
+.creat-event{
+    margin: 0.625rem 0;
+   
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	padding: 1.25rem 1.875rem 0 1.875rem;
+
+}
+.list{
+    margin:0 0 1.25rem 0;
+
+}
+.events{
+	display: flex;
+	flex-direction: column;
+	width:59.438rem;
+	height:36rem;
+	overflow-y: scroll;	
+}
+.events::-webkit-scrollbar {
+    display: none;
+}
+.events{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.events-one-row{
+	display: flex;
+	width:59.438rem;
+	justify-content: space-between;
+	margin-bottom: 1.25rem;
+}
+.event-guide-lst{
+	display: flex;
+	margin-bottom: 1.25rem;
+}
+.event-guide-lst ul{
+	display: flex;
+	margin-left: 1.25rem;
+}
+.event-guide-lst li{
+	display: flex;
+	margin-right:1.875rem;
+	cursor: pointer;
+}
+.event-guide-lst li p{
+	color:#3B3441;
+}
+#event-activ{
+	color:#641CAE ;
+}
+.event-guide-lst ul li p:hover:not(#event-activ) {
+	color: #641CAE;
+}
+#event-time{
+	color:#FF0000;
+	font-size: 1rem;
+	margin: 0 0.625rem 0.313rem 0.625rem;
+}

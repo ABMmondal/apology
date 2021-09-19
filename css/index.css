@@ -1,0 +1,248 @@
+.indx-container{
+	display: flex;
+	justify-content: space-between; 
+}
+.indx-lf-mn{
+	display: flex;
+	position: sticky;
+	flex-direction: column;
+	align-items: center;
+	width: 24.938rem;
+	height:auto;
+}
+.indx-middle-sec{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width:41.26rem;
+	height:auto;
+	margin: 0 auto auto auto;
+}
+.indx-rit-mn{
+	display: flex;
+	position: sticky;
+	flex-direction: column;
+	width: 28.75rem;
+	align-items: center;
+}
+.profile-shot-sec{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin:1.875rem 0 0.625rem 0;
+}
+.user-name p{
+	font-size:1.875rem;
+	font-weight: 900;
+}
+.indx-user-guide-lf-nn{
+	display: flex;
+	flex-direction: column;
+}
+.indx-user-guide-lf-single-nn{
+	margin-top:0.625rem;
+}
+.indx-user-guide-lf-single-nn a{
+	display: flex;
+	align-items: center;
+	height: 3.625rem;
+	width:13.438rem;
+	border-radius: 1.875rem;
+	padding-left:1.563rem;
+}
+.indx-user-guide-lf-single-nn a p{
+	font-size:1.125rem;
+	font-weight: 900;
+	margin-left: 0.625rem;
+}
+.indx-user-guide-lf-single-nn a:hover:not(.active) {
+	background-color: rgba(158, 90, 228, 0.1);
+	
+}
+.indx-user-guide-lf-single-nn .active {
+	background-color: rgba(158, 90, 228, 0.1);
+	
+}
+.new-post{
+	display: flex;
+	flex-direction: column;
+	width: 40.938rem;
+	height: 8.438rem;
+	background-color: #fff;
+	box-shadow: 0px 3px 6px rgba(100, 28, 174, 0.1), 0px 4px 8px rgba(100, 28, 174, 0.08), 0px 1px 12px rgba(100, 28, 174, 0.04);
+    border-radius: 0.938rem;
+    margin:  0.938rem 0;
+}
+.new-post-title{
+	color:#641CAE;
+	margin: 0.938rem 0 1.25rem 3.438rem;
+	font-weight: 900;
+	font-size:1.875rem;
+}
+.new-post-menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+.new-post-single-mn{
+	display: flex;
+	margin:0 2.5rem 0 0;
+	align-items: center;
+}
+.new-post-single-mn-btn-text{
+	color: #1A1F21;
+	margin-left: 0.625rem;
+}
+.news-feeds{
+	display: flex;
+	flex-direction: column;
+}
+.index-single-card{
+	 margin-bottom:0.938rem;
+}
+.card-header{
+	display: flex;
+	align-items: center;
+	margin: 0.938rem;
+
+}
+.card-header div{
+	margin-right: 0.625rem;
+}
+.card-name a{
+	display: flex;
+	font-size:1.125rem;
+	font-weight: 900;
+	color:#1A1F21;
+}
+.bgc-green{
+	background-color:  #00FF19;
+	margin-right: 0.313rem;
+}
+.bgc-red{
+	background-color: #FF0000;
+}
+.card-3dot{
+	margin-left: auto;
+}
+.card-containt{
+	display: flex;
+	border-radius:0.938rem; ;
+	flex-direction: column;
+}
+.card-containt-title{
+	margin:0 0.938rem 0.625rem 0.938rem;
+}
+.card-containt-title p{
+	color: #1A1F21;
+}
+
+.card-containt-itm{
+	display: flex;
+	width: 40.938rem;
+	height: auto;
+	flex-direction: column;
+	border-radius: 0.938rem;
+
+}
+.card-containt-itm a{
+	display: flex;
+	border-radius: 0.938rem;
+}
+.card-containt-itm-img a img{
+  width: 40.938rem;
+  height: auto;
+
+}
+.card-bottom-btn-sec{
+	margin: 0.938rem;
+}
+.card-bottom-btn-sec hr{
+	margin-bottom:0.625rem;
+}
+.link-typ-containt-text{
+   margin: 0.938rem 0.938rem 0 0.938rem ;
+}
+.link-typ-containt-text .link{
+   font-size: 0.875rem;
+   color: #1A1F21;
+   opacity: 60%; 
+   margin-bottom: 0.313rem;
+}
+.link-typ-containt-text .heading{
+   font-size:1rem;
+   color: #1A1F21;
+   font-weight: 900;
+}
+.link-typ-containt-text .description{
+	font-size: 0.875rem;
+   color: #1A1F21;
+   opacity: 80%;
+}
+
+.pdf-typ-containt{
+	margin: 0 0.938rem;
+	padding: 0.938rem 0.938rem 0 0.938rem;
+	border: 0.013rem solid rgba(100, 28, 174, 0.5);
+	border-radius:0.938rem;
+}
+.pdf-typ-containt .pdf-heading{
+	font-size: 1.25rem;
+	font-weight: 900;
+	margin-bottom: 1.875rem;
+}
+.pdf-typ-containt .pdf-about{
+	margin-bottom: 1.25rem;
+}
+.pdf-typ-containt .pdf-about{
+	font-size: 0.875rem;
+}
+.pdf-tags{
+	display: flex;
+	align-items: center;
+	margin-bottom:1.875rem;
+}
+.pdf-tags p{
+	font-size: 0.875rem;
+	color: #1A1F21;
+   opacity:70%;
+   margin-left:0.625rem ;
+}
+.pdf-tags-dot{
+	color: #1A1F21;
+	font-size:1.563 !important;
+	font-weight: 900;
+	 opacity:100% !important;
+}
+.pdf-typ-btn-sec{
+	display: flex;
+	margin-bottom:0.938rem ;
+}
+.ans-btn{
+	margin: 0 0.625rem 0 auto;
+}
+.pdf-typ-save-btn{
+	margin: auto;
+}
+/*
+.card-video-icon{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+.card-video-icon img{
+	height: 24px;
+	width: 24px;
+}
+*/
+.schedule-sec{
+	margin: 0.938rem 0;
+}
+.schedule-box-body hr{
+	margin-left: 1.563rem;
+}

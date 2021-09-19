@@ -1,0 +1,64 @@
+
+.community-search{
+    margin:1.25rem 0 0.625rem 0.625rem;
+}
+.community-sub-category li{
+    margin:0.313rem auto 0.313rem 0.625rem ;
+}
+.community-sub-category li a{
+	font-weight: 600;
+	font-size: 1.125rem;
+}
+/*notification text color*/
+.notification-text-color{
+	color: #3B3441;
+}
+
+.creat-community{
+    margin: 0.625rem 0;
+   
+}
+/* here two sub haddings 1st- yourcommunity and 2nd-Community  you've joined*/
+.sidebar-communities{
+	margin-bottom:  0.625rem;
+}
+/* single community list , you have joined*/
+.sidebar-community-list{
+    margin:0.625rem 0 0.625rem 0.625rem;	
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	padding: 1.25rem 1.875rem 0 1.875rem;
+
+}
+.list{
+    margin:0 0 1.25rem 0;
+
+}
+
+.communities{
+	display: flex;
+	flex-direction: column;
+	width:59.438rem;
+	height:36rem;
+	overflow-y: scroll;	
+}
+.communities::-webkit-scrollbar {
+    display: none;
+}
+.communities{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.communities-one-row{
+	display: flex;
+	width:59.438rem;
+	justify-content: space-between;
+	margin-bottom: 1.25rem;
+}
+
+
+
+
+
