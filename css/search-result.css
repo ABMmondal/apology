@@ -1,0 +1,104 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	padding: 1.25rem 0 0 0;
+}
+.search-results{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width:63.188rem;
+	height:40.375rem;
+	overflow-y: scroll;	
+}
+.search-results::-webkit-scrollbar {
+    display: none;
+}
+.search-results{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.search-result-box{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1.875rem;
+}
+.search-result-box-heading{
+	font-weight: bold;
+  color:#641CAE;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+.People-single-box{
+	display: flex;
+	margin-bottom:0.625rem;
+	align-items: center;
+	width: 43.75rem;
+	height: 5rem;
+	border-radius: 0.625rem;
+	background-color: #ffff;
+	box-shadow:0px 0px 8px rgb(100 28 174 / 20%);
+}
+.People-single-box .profile-photo{
+	display: flex;
+	margin: 0 0.938rem;
+	height: 3.125rem;
+	width: 3.125rem;
+	border-radius: 50%;
+}
+.People-single-box .profile-photo img{
+	display: flex;
+	height: 3.125rem;
+	width: 3.125rem;
+	border-radius: 50%;
+}
+.profile-intro{
+	display: flex;
+	flex-direction: column;
+}
+.profile-intro a{
+	display: flex;
+}
+.profile-intro .name{
+	font-size:1.125rem;
+	color: #3B3441;
+	width: 30rem;
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.profile-intro .follower{
+	font-size: 0.875rem;
+  color: rgba(59, 52, 65, 0.6);
+}
+.People-single-box button{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	background-color:#F6F6F6;
+	border: none;
+	cursor: pointer;
+	margin: 0 0.938rem 0 auto;
+	height: 3.125rem;
+	width: 3.125rem;
+	border-radius: 50%;
+}
+.People-single-box button img{
+	height: 1.875rem;
+	width: 1.875rem;
+}
+.search-resut-see-all{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 43.75rem;
+	height: 2.5rem;
+	border: none;
+	cursor: pointer;
+	border-radius: 0.625rem;
+	background-color: #ffff;
+	box-shadow:0px 0px 8px rgb(100 28 174 / 20%);
+	font-size: 1.125rem;
+	color:#641CAE;
+}
