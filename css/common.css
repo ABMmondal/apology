@@ -762,23 +762,26 @@ header nav ul li a{
 }
 .like-commont-share-single-btn{
    width: 10.417rem;
-   margin: auto;
-
+   display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .like-commont-share-single-btn a{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	width: 10.417rem;
 }
-.like-commont-share-single-btn a p{
+.like-commont-share-single-btn p{
 	font-weight: 900;
 	font-size: 1.125rem;
 	margin-left: 0.625rem;
+	color:#641CAE ;
 	
 }
 .comment-btn-bdr{
-	border-left: 0.013rem solid  #641CAE;;
-	border-right: 0.013rem solid  #641CAE; ;
+	border-left: 0.013rem solid  #641CAE;
+	border-right: 0.013rem solid  #641CAE;
 }
 .btn-2X9 a{
 	display: flex;
@@ -1020,9 +1023,9 @@ header nav ul li a{
 	width:8.75rem ;
 	border-radius: 0.313rem;
 }
-.img-8X8{
-	height: 8.75rem;
-	width:8.75rem ;
+.img-7X7{
+	height:7.5rem;
+	width:7.5rem ;
 	border-radius: 0.313rem;
 }
 .text-dot{
@@ -1047,5 +1050,18 @@ header nav ul li a{
 .socal-single-btn-2x2 img{
 	height:1.25rem;
 	width:1.25rem;
+	border-radius: 50%;
+}
+.img-profile-3X3{
+	display: flex;
+	margin: 0 0.938rem;
+	height: 3.125rem;
+	width: 3.125rem;
+	border-radius: 50%;
+}
+.img-profile-3X3 img{
+	display: flex;
+	height: 3.125rem;
+	width: 3.125rem;
 	border-radius: 50%;
 }
