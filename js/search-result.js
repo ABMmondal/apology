@@ -1,5 +1,4 @@
-        function changeImage() {
-            var image = document.getElementById('myimage');
+        function changeImage(image) {
             if (image.src.match("../image/svg/plus.svg")) {
                 image.src = "../image/svg/check.svg";
             }

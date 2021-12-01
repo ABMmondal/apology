@@ -1,0 +1,14 @@
+body{
+	height:100%;
+	/*background-color: #641CAE;*/
+}
+.body-background-img{
+	background-image: url("../image/jpg/pic8.jpg")  no-repeat center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	background-attachment:fixed;
+	position:relative;
+	overflow:hidden;
+}
